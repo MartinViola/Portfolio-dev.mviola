@@ -1,0 +1,6 @@
+.contentContainer{
+    flex-grow: 1;
+}
+.linkBackHome{
+    align-self: flex-end;
+}

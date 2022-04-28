@@ -1,0 +1,67 @@
+header {
+  height: 66px;
+  background-color: #012103;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SIDE DRAWER START */
+
+.sideDrawerMenu {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3fcc48af;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  padding: 66px 0 0 0;
+  margin: 0;
+  z-index: 5;
+}
+
+.sideDrawerContainer:hover .sideDrawerMenu {
+  width: 100px;
+  padding: 66px 0 0 15px;
+  margin: 0;
+}
+
+.drawerLink{
+
+  text-decoration: none;
+  /* color: #196e1f; */
+  color: #012103;
+
+
+}
+.drawerLink>p{
+  padding-bottom: 1rem;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 5px #f2e8cf; */
+}
+.drawerLink>p:hover{
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: #12ff22;
+  /* color: #196e1f; */
+
+}
+
+/* SIDE DRAWER END */
+
+.sameAsHeader {
+  line-height: 66px;
+}
+.menuIcon{
+    /* height: 20px; */
+    margin-left: 15px;
+    color: #3fcc49;
+    border-style: none solid solid none;
+    border-width: 0 1px 1px 0;
+    padding: 0 10px 10px 0;
+
+}
+

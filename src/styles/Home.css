@@ -1,0 +1,18 @@
+/* .mainHome{
+    background-image: ´url(${process.env.PUBLIC_URL+ ´/src/imges/martin.JPG´})´;
+} */
+
+.homeImage{
+    height: calc(100% - 66px - 50px);
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.homeTextContainer{
+    z-index: 1;
+    color: #196e1f;
+    /* text-shadow: 1px 1px 3px #BC4749; */
+}
+.titleDescription{
+    color: #45884a;
+}
