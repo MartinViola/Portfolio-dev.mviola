@@ -8,7 +8,7 @@ function CV() {
       <h3>Curriculum Vitae:</h3>
       <div className='contentContainer'></div>
       <LinkRouter className="linkBackHome"to="*">
-            <p>back home</p>
+      <p>Go to Intro</p>
       </LinkRouter>
     </main>
   )

@@ -1,6 +1,41 @@
-.contentContainer{
-    flex-grow: 1;
-}
 .linkBackHome{
     align-self: flex-end;
+}
+.projectsTitle{
+    color: #45884a;
+}
+.projectsContentContainer{
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    color: #3fcc49;
+    border-style: none solid solid none;
+    border-width: 0 1px 1px 0;
+}
+.linkBackHome{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #3fcc49;
+}
+.linkBackHome:hover{
+    color: #BC4749;
+}
+.projectContainer{
+    height: 280px;
+    width: 300px;
+    background-color: #3FCC49;
+    color: #196E1F;
+    margin: 1rem;
+    padding: 5px;
+    box-shadow: 4px 4px 5px black;
+
+}
+.projectImage{
+    width: 100%;
+    height: 163px;
+    box-shadow: 2px 2px 5px #012103;
 }

@@ -18,7 +18,7 @@ function App() {
           <Route path="/CV" element={<CV />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

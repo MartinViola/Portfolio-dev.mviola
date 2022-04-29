@@ -14,9 +14,18 @@
 }
 
 main{
-    background-color: #012103;
+    background-color: #013105;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 116px;
+    padding: 1rem 2rem 1rem 132px;
+}
+.dflex{
+    display: flex;
+}
+.dflexColumn{
+    flex-direction: column;
+}
+.dflexSpacebetween{
+    justify-content: space-between;
 }
